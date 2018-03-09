@@ -31,6 +31,16 @@
              backgroundColor:[UIColor yellowColor]]; 
 ```
 
+### UIButton
+```
+  [yourButton xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius)
+                        size:size
+                 borderColor:[UIColor redColor]
+                 borderWidth:1
+             backgroundColor:[UIColor yellowColor]
+                    forState:UIControlStateNormal]; 
+```
+
 
 
 
