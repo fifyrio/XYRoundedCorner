@@ -6,17 +6,29 @@
 
 ### UIView
 ```
-[yourView xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius) size:yourView.bounds.size borderColor:[UIColor redColor] borderWidth:1 backgroundColor:[UIColor yellowColor]];
+    [yourView xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius)
+                        size:size
+                 borderColor:[UIColor redColor]
+                 borderWidth:1
+             backgroundColor:[UIColor yellowColor]];
 ```
 
 ### UILabel
 ```
-[yourLabel xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius) size:yourLabel.bounds.size borderColor:[UIColor redColor] borderWidth:1 backgroundColor:[UIColor yellowColor]];
+   [yourLabel xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius)
+                        size:size
+                 borderColor:[UIColor redColor]
+                 borderWidth:1
+             backgroundColor:[UIColor yellowColor]];    
 ```
 
 ### UIImage
 ```
-[yourImage xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius) size:yourImage.bounds.size borderColor:[UIColor redColor] borderWidth:1 backgroundColor:[UIColor yellowColor]];
+   [yourImage xy_setXYRadius:XYRadiusMake(topLeftRadius, topRightRadius, bottomLeftRadius, bottomRightRadius)
+                        size:size
+                 borderColor:[UIColor redColor]
+                 borderWidth:1
+             backgroundColor:[UIColor yellowColor]]; 
 ```
 
 
