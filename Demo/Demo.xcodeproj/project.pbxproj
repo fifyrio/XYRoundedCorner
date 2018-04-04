@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE31FF5D2074C6710055D1BB /* UIImage+XYRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31FF5C2074C6710055D1BB /* UIImage+XYRadius.m */; };
+		BE31FF602074D7790055D1BB /* XYRoundedCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31FF5F2074D7790055D1BB /* XYRoundedCornerRadius.m */; };
+		BE31FF632074E2390055D1BB /* UIImageView+XYRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = BE31FF622074E2390055D1BB /* UIImageView+XYRadius.m */; };
 		CC03DF4D1D11323F00E3660A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4C1D11323F00E3660A /* main.m */; };
 		CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC03DF4F1D11323F00E3660A /* AppDelegate.m */; };
 		CC03DF581D11323F00E3660A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC03DF571D11323F00E3660A /* Assets.xcassets */; };
 		CC1167351D11361300F81E14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1167331D11361300F81E14 /* ViewController.m */; };
 		CC1167361D11361300F81E14 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC1167341D11361300F81E14 /* ViewController.xib */; };
 		CC11674E1D114DF300F81E14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC11674D1D114DF300F81E14 /* LaunchScreen.xib */; };
-		CC15C8CA205286950005C404 /* UIImage+XYRadis.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15C8C6205286950005C404 /* UIImage+XYRadis.m */; };
 		CC15C8CB205286950005C404 /* UIView+XYRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = CC15C8C8205286950005C404 /* UIView+XYRadius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE31FF5B2074C6710055D1BB /* UIImage+XYRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYRadius.h"; sourceTree = "<group>"; };
+		BE31FF5C2074C6710055D1BB /* UIImage+XYRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYRadius.m"; sourceTree = "<group>"; };
+		BE31FF5E2074D7790055D1BB /* XYRoundedCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYRoundedCornerRadius.h; sourceTree = "<group>"; };
+		BE31FF5F2074D7790055D1BB /* XYRoundedCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYRoundedCornerRadius.m; sourceTree = "<group>"; };
+		BE31FF612074E2390055D1BB /* UIImageView+XYRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XYRadius.h"; sourceTree = "<group>"; };
+		BE31FF622074E2390055D1BB /* UIImageView+XYRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XYRadius.m"; sourceTree = "<group>"; };
 		CC03DF481D11323F00E3660A /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC03DF4C1D11323F00E3660A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC03DF4E1D11323F00E3660A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,8 +36,6 @@
 		CC1167331D11361300F81E14 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC1167341D11361300F81E14 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		CC11674D1D114DF300F81E14 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		CC15C8C5205286950005C404 /* UIImage+XYRadis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XYRadis.h"; sourceTree = "<group>"; };
-		CC15C8C6205286950005C404 /* UIImage+XYRadis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XYRadis.m"; sourceTree = "<group>"; };
 		CC15C8C7205286950005C404 /* UIView+XYRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XYRadius.h"; sourceTree = "<group>"; };
 		CC15C8C8205286950005C404 /* UIView+XYRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XYRadius.m"; sourceTree = "<group>"; };
 		CC15C8C9205286950005C404 /* XYRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRoundedCorner.h; sourceTree = "<group>"; };
@@ -114,11 +120,15 @@
 		CC15C8C4205286950005C404 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CC15C8C5205286950005C404 /* UIImage+XYRadis.h */,
-				CC15C8C6205286950005C404 /* UIImage+XYRadis.m */,
+				BE31FF612074E2390055D1BB /* UIImageView+XYRadius.h */,
+				BE31FF622074E2390055D1BB /* UIImageView+XYRadius.m */,
+				BE31FF5B2074C6710055D1BB /* UIImage+XYRadius.h */,
+				BE31FF5C2074C6710055D1BB /* UIImage+XYRadius.m */,
 				CC15C8C7205286950005C404 /* UIView+XYRadius.h */,
 				CC15C8C8205286950005C404 /* UIView+XYRadius.m */,
 				CC15C8C9205286950005C404 /* XYRoundedCorner.h */,
+				BE31FF5E2074D7790055D1BB /* XYRoundedCornerRadius.h */,
+				BE31FF5F2074D7790055D1BB /* XYRoundedCornerRadius.m */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -195,10 +205,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC15C8CB205286950005C404 /* UIView+XYRadius.m in Sources */,
-				CC15C8CA205286950005C404 /* UIImage+XYRadis.m in Sources */,
+				BE31FF5D2074C6710055D1BB /* UIImage+XYRadius.m in Sources */,
 				CC1167351D11361300F81E14 /* ViewController.m in Sources */,
 				CC03DF501D11323F00E3660A /* AppDelegate.m in Sources */,
 				CC03DF4D1D11323F00E3660A /* main.m in Sources */,
+				BE31FF632074E2390055D1BB /* UIImageView+XYRadius.m in Sources */,
+				BE31FF602074D7790055D1BB /* XYRoundedCornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

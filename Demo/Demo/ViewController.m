@@ -28,9 +28,11 @@
     self.title = @"Demo";
     
     [self setUpViews];
+    
 }
 #pragma mark - Initialize
 - (void)setUpViews{
+    /*
     for (NSInteger i = 0; i < 2; i ++) {
         UIButton *feedBtn = [[UIButton alloc] initWithFrame:CGRectMake(20 + (40 + 100) * i, 100, 100, 40)];
         [feedBtn xy_setXYRadius:XYRadiusMake(10, 10, 10, 10) size:CGSizeMake(100, 40) borderColor:[UIColor grayColor] borderWidth:1 backgroundColor:[UIColor grayColor] forState:UIControlStateNormal];
@@ -43,25 +45,11 @@
             _feedBtn_2 = feedBtn;
         }
     }
-    
+    */
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
+    [view xy_setXYRadius:XYRadiusMake(2, 20, 40, 60) size:CGSizeMake(100, 100) borderColor:[UIColor clearColor] borderWidth:0 backgroundColor:[UIColor grayColor]];
+    [self.view addSubview:view];
 }
 
 
-- (IBAction)onclickSet:(id)sender {
-    static int i = 0;
-    if (i % 2) {
-        _feedBtn_1.selected = YES;
-        _feedBtn_2.selected = NO;
-    }else{
-        _feedBtn_1.selected = NO;
-        _feedBtn_2.selected = NO;
-    }
-    i ++;
-}
-
-#pragma mark - Memory
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 @end

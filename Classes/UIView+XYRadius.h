@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIImage+XYRadis.h"
+#import "XYRoundedCornerRadius.h"
 
 @interface UIView (XYRadius)
 

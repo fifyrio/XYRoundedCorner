@@ -7,6 +7,7 @@
 //
 
 #import "UIView+XYRadius.h"
+#import "UIImage+XYRadius.h"
 
 @implementation UIView (XYRadius)
 
@@ -20,7 +21,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         CGSize pixelSize = CGSizeMake(pixel(_size.width), pixel(_size.height));
         
-        UIImage *radiusImage = [UIImage xy_setXYRadius:radius size:pixelSize borderColor:borderColor borderWidth:borderWidth backgroundColor:backgroundColor];
+        UIImage *radiusImage = [UIImage xy_drawByXYRadius:radius size:pixelSize borderColor:borderColor borderWidth:borderWidth backgroundColor:backgroundColor];
         
         dispatch_async(dispatch_get_main_queue(), ^{
             self.frame = CGRectMake(pixel(self.frame.origin.x), pixel(self.frame.origin.y), pixelSize.width, pixelSize.height);

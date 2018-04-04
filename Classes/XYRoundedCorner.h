@@ -9,7 +9,7 @@
 #ifndef XYRoundedCorner_h
 #define XYRoundedCorner_h
 
-#import "UIImage+XYRadis.h"
+#import "UIImage+XYRadius.h"
 #import "UIView+XYRadius.h"
 
 #endif /* XYRoundedCorner_h */
